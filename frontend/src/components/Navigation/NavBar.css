@@ -1,0 +1,22 @@
+.myNav .nav-link {
+    text-decoration: none;
+    color: #fff !important;
+    font-size: large;
+}
+
+.myNav .nav-link:hover {
+    background-color: #777777;
+} 
+
+.myNav .dropdown-item{
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.myNav .dropdown-item:hover{
+    color: #333333;
+}
+
+.myNav .dropdown-menu{
+    background-color:#333333;
+}

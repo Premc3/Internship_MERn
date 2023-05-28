@@ -1,0 +1,56 @@
+body{
+  background-color: peachpuff!important;
+}
+.formHead{
+  background-color: midnightblue;
+  padding: 5px;
+  color: white;
+}
+
+.formBg{
+  background-color:#495464;
+  margin-top: 5px;
+  color: white;
+  border-radius: 5px;
+}
+
+.formHeadPill{
+  color: white;
+  background-color: peachpuff;
+  border-bottom: 1px inset #4e4c4c;
+}
+
+.cover{
+  position:fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-color: wheat;
+  z-index: 100;
+}
+
+.spinner {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid rebeccapurple;
+  border-bottom: 16px solid rebeccapurple;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  display: block;
+  margin: 30vh auto;
+  padding: 3px;
+  z-index:101;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
